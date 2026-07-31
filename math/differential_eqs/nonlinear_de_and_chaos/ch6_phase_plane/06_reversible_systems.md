@@ -1,10 +1,14 @@
 ---
 tags:
-date: "2026-07-30"
+  - nonlinear_eqs
+  - reversibility
+  - dynamics
+  - diff_eqs
+date: 2026-07-30
 ---
 
 ---
-status: #rough
+status: #complete 
 class backlink: [[nonlinear_differential_equations_and_chaos_strogatz]]
 
 # Time-Reversal Symmetry
@@ -35,14 +39,11 @@ and suppose that this system is reversible. Then sufficiently close to the origi
 
 - Example 6.6.1 Shows the linearization of a system with a nonlinear center then using reversibility shows that it is such, also discusses **heteroclinic trajectories** which is when two saddle points are joined by a connection, these are much more common in reversible and conservative systems
 - Example 6.6.2 Mentions a higher-order definition of reversibility which is defined as a mapping $R(x)$ which when applied to the phase plane twice will cause all points to stay invariant (like flipping over the x-axis twice)
-- Example 6.6.3
-
-
-
+- Example 6.6.3 Shows a reversible, but not conservative system by showing proving that the change of variables gives an invariant phase portrait when applied twice and that there exists an attracting fixed point, which cannot occur in a conservative system
 
 ---
 Directly Related Subjects
 
-- 
+- [[05_conservative_systems]] 
 
 
